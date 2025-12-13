@@ -1,0 +1,33 @@
+.navbar {
+    border: 1px solid red;
+    background-color: #1f2937;
+}
+
+.navdiv {
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.logo {
+    border: 1px solid red;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    border: 1px solid red;
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.navlist {
+    border: 1px solid red;
+    padding-left: 20px;
+    padding-right: 20px;  
+}

@@ -1,0 +1,50 @@
+.intro {
+    border: 2px solid red;
+    display: flex;
+    padding: 100px;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.left-box {
+    border: 2px solid red;
+    flex: 1;
+    padding-right: 50px;
+}
+
+.right-box {
+    border: 2px solid red;
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.placeholder-img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

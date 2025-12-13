@@ -1,0 +1,45 @@
+
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex_container {
+  display: flex;
+  border: 5px solid;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex_container div {
+  border: 2px solid red;
+  height: 80px;
+  
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: space-between
+  
+}
+
+.link-panel {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.menu-bar {
+  height: 40px
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  font-style: italic;
+  font-size: 20px;
+  color: #1F2937;
+  font-weight: 300;
+ 
+}
