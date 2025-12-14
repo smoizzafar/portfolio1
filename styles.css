@@ -1,45 +1,235 @@
-
 html, body, html * {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+margin: 0;
+}
+
 .flex_container {
   display: flex;
-  border: 5px solid;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.flex_container div {
-  border: 2px solid red;
-  height: 80px;
-  
+.navbar {
+    background-color: #1f2937;
 }
 
-.menu-bar {
-  display: flex;
-  flex-direction: row;
-  background-color: #1F2937;
-  color: #F9FAF8;
-  justify-content: space-between
-  
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
-.link-panel {
-  display: flex;
-  flex-direction: row;
-  
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.menu-bar {
-  height: 40px
+.links {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.navlist {
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+
+.intro {
+    display: flex;
+    padding: 100px;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.left-box {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.right-box {
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.placeholder-img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+
+.projects-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.projects-table {
+    display: flex;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    
+}
+
+.project-imgs {
+    border: 4px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.project-imgs img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-desc {
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
 }
 
 .quote-section {
-  background-color: #E5E7EB;
-  font-style: italic;
-  font-size: 20px;
-  color: #1F2937;
-  font-weight: 300;
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    width: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-speaker {
+    display: flex;
+    justify-content: end;
+    width: 700px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cto-section {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.cto-box {
+    width: 900px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.cto-nest {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cto-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cto-text .cto-text-heading {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cto-text .cto-text-desc {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    font-size: 16px;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 12px;
 }

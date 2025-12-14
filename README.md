@@ -1,2 +1,5 @@
 # portfolio1
-First draft of my personal portfolio.
+My first complete webpage built with html and css.
+
+Following the reference webpage provided as part of my 
+learning journey at The Odin Project.
